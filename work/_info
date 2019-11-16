@@ -1,0 +1,53 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dG:/ModelSim/ANISH_A4_P02
+vfindMax
+!s110 1573894868
+!i10b 1
+!s100 [8^Z^<ZXDeVBCngN7BZjc1
+I2e1Ng>J0M`jJRKZDVQaOg1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dG:/ModelSim/Solar-Power-Optimizer
+w1573376974
+8G:/ModelSim/Solar-Power-Optimizer/findMax.v
+FG:/ModelSim/Solar-Power-Optimizer/findMax.v
+L0 1
+Z2 OP;L;10.4a;61
+r1
+!s85 0
+31
+!s108 1573894868.000000
+!s107 G:/ModelSim/Solar-Power-Optimizer/findMax.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/Solar-Power-Optimizer/findMax.v|
+!s101 -O0
+!i113 1
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+nfind@max
+vmaster
+!s110 1573894869
+!i10b 1
+!s100 ?Yb8:2JWb^R=SYbGURIOI2
+I[kMTHDPmRV7OCG@mf00<C0
+R0
+R1
+w1573376451
+8G:/ModelSim/Solar-Power-Optimizer/master.v
+FG:/ModelSim/Solar-Power-Optimizer/master.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1573894869.000000
+!s107 G:/ModelSim/Solar-Power-Optimizer/master.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/Solar-Power-Optimizer/master.v|
+!s101 -O0
+!i113 1
+R3

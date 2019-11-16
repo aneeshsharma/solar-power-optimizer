@@ -1,0 +1,11 @@
+G:/ModelSim/Solar-Power-Optimizer/master.v {1 {vlog -work work -stats=none G:/ModelSim/Solar-Power-Optimizer/master.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module master
+
+Top level modules:
+	master
+
+} {} {}} G:/ModelSim/Solar-Power-Optimizer/adc.v {1 {vlog -work work -stats=none G:/ModelSim/Solar-Power-Optimizer/adc.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+
+} {} {}}
