@@ -8,46 +8,67 @@ z2
 !i10f 100
 cModel Technology
 dG:/ModelSim/ANISH_A4_P02
-vfindMax
-!s110 1573894868
+vchange
+Z0 !s110 1574583050
 !i10b 1
-!s100 [8^Z^<ZXDeVBCngN7BZjc1
-I2e1Ng>J0M`jJRKZDVQaOg1
-Z0 VDg1SIo80bB@j0V0VzS_@n1
-Z1 dG:/ModelSim/Solar-Power-Optimizer
-w1573376974
-8G:/ModelSim/Solar-Power-Optimizer/findMax.v
-FG:/ModelSim/Solar-Power-Optimizer/findMax.v
-L0 1
-Z2 OP;L;10.4a;61
+!s100 XkoU`JbYC2nm06@JAE1Bl3
+INQ5VCTMkH5f[Ia5b6zOm11
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dG:/ModelSim/Solar-Power-Optimizer
+Z3 w1574583033
+Z4 8G:\ModelSim\Solar-Power-Optimizer\master.v
+Z5 FG:\ModelSim\Solar-Power-Optimizer\master.v
+L0 3
+Z6 OP;L;10.4a;61
 r1
 !s85 0
 31
-!s108 1573894868.000000
-!s107 G:/ModelSim/Solar-Power-Optimizer/findMax.v|
-!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/Solar-Power-Optimizer/findMax.v|
+Z7 !s108 1574583050.000000
+Z8 !s107 G:\ModelSim\Solar-Power-Optimizer\master.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|G:\ModelSim\Solar-Power-Optimizer\master.v|
 !s101 -O0
 !i113 1
-Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vfindMax
+R0
+!i10b 1
+!s100 P_e]i6_4Aij?9d;QJ@P2f0
+IoSC[_6c<oYW]9LPHLAOcB3
+R1
+R2
+w1574583040
+8G:\ModelSim\Solar-Power-Optimizer\findMax.v
+FG:\ModelSim\Solar-Power-Optimizer\findMax.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 G:\ModelSim\Solar-Power-Optimizer\findMax.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\ModelSim\Solar-Power-Optimizer\findMax.v|
+!s101 -O0
+!i113 1
+R10
 nfind@max
 vmaster
-!s110 1573894869
-!i10b 1
-!s100 ?Yb8:2JWb^R=SYbGURIOI2
-I[kMTHDPmRV7OCG@mf00<C0
 R0
+!i10b 1
+!s100 <WEPHd1n[GY>FikQSW@ND3
+Il:5df>kQhf@hUDDKbP0c;0
 R1
-w1573376451
-8G:/ModelSim/Solar-Power-Optimizer/master.v
-FG:/ModelSim/Solar-Power-Optimizer/master.v
-L0 1
 R2
+R3
+R4
+R5
+L0 19
+R6
 r1
 !s85 0
 31
-!s108 1573894869.000000
-!s107 G:/ModelSim/Solar-Power-Optimizer/master.v|
-!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/Solar-Power-Optimizer/master.v|
+R7
+R8
+R9
 !s101 -O0
 !i113 1
-R3
+R10

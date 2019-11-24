@@ -1,9 +1,11 @@
+`timescale 1ms / 100us
+
 module findMax(base, arm, status, ldr, trigger, speed);
 
-input[10:0] ldr;
-input[32:0] speed;
+input[9:0] ldr;
+input[31:0] speed;
 input trigger;
-output reg[8:0] base, arm;
+output reg[7:0] base, arm;
 output reg status;
 
 reg[8:0] maxA, maxB;
@@ -25,6 +27,7 @@ begin
     arm = 0;
     base = 0;
     maxI = 0;
+    # 5; // short delay
     $monitor("ldr=%10d, maxI=%3d, maxA=%8d, maxB=%8d, arm=%3d, base=%3d", ldr, maxI, maxA, maxB, arm, base); 
     for(i=0;i<=180;i=i+1)
     begin
