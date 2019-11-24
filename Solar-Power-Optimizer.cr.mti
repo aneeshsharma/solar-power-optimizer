@@ -1,11 +1,4 @@
-G:/ModelSim/Solar-Power-Optimizer/findMax.v {1 {vlog -work work -stats=none {G:\ModelSim\Solar-Power-Optimizer\findMax.v}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module findMax
-
-Top level modules:
-	findMax
-
-} {} {}} G:/ModelSim/Solar-Power-Optimizer/adc.v {1 {vlog -work work -stats=none G:/ModelSim/Solar-Power-Optimizer/adc.v
+G:/ModelSim/Solar-Power-Optimizer/adc.v {1 {vlog -work work -stats=none G:/ModelSim/Solar-Power-Optimizer/adc.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 
 } {} {}}
