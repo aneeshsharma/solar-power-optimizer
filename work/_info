@@ -9,59 +9,37 @@ z2
 cModel Technology
 dG:/ModelSim/ANISH_A4_P02
 vchange
-Z0 !s110 1574598956
+Z0 !s110 1574664059
 !i10b 1
-!s100 XkoU`JbYC2nm06@JAE1Bl3
-INQ5VCTMkH5f[Ia5b6zOm11
+!s100 GS4TiWBa]f;1BcV5gfCd23
+I?:mIAcACVeVn;^S>hjj]53
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dG:/ModelSim/Solar-Power-Optimizer
-Z3 w1574598953
-Z4 8G:\ModelSim\Solar-Power-Optimizer\master.v
-Z5 FG:\ModelSim\Solar-Power-Optimizer\master.v
-L0 3
+Z3 w1574663789
+Z4 8G:/ModelSim/Solar-Power-Optimizer/master.v
+Z5 FG:/ModelSim/Solar-Power-Optimizer/master.v
+L0 6
 Z6 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z7 !s108 1574598956.000000
-Z8 !s107 G:\ModelSim\Solar-Power-Optimizer\master.v|
-Z9 !s90 -reportprogress|300|-work|work|-stats=none|G:\ModelSim\Solar-Power-Optimizer\master.v|
+Z7 !s108 1574664059.000000
+Z8 !s107 G:/ModelSim/Solar-Power-Optimizer/master.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/Solar-Power-Optimizer/master.v|
 !s101 -O0
 !i113 1
 Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
-vfindMax
+vcontrolUnit
 R0
 !i10b 1
-!s100 YGIHczbBWTDMz>G5DU<co2
-IKlNg^?;@HML6[[J?7>Rfo0
-R1
-R2
-w1574584698
-8G:\ModelSim\Solar-Power-Optimizer\findMax.v
-FG:\ModelSim\Solar-Power-Optimizer\findMax.v
-L0 3
-R6
-r1
-!s85 0
-31
-!s108 1574598955.000000
-!s107 G:\ModelSim\Solar-Power-Optimizer\findMax.v|
-!s90 -reportprogress|300|-work|work|-stats=none|G:\ModelSim\Solar-Power-Optimizer\findMax.v|
-!s101 -O0
-!i113 1
-R10
-nfind@max
-vmaster
-R0
-!i10b 1
-!s100 jQd9`E6KcZzlWl5h7VK0k0
-IF;TiA[bg7c2VZG>2ai[LT2
+!s100 ]fDMzKP7_KW`G6CCj_MGF0
+IaziD5YYShmfKNGRN7Y4H:2
 R1
 R2
 R3
 R4
 R5
-L0 19
+L0 28
 R6
 r1
 !s85 0
@@ -69,6 +47,93 @@ r1
 R7
 R8
 R9
+!s101 -O0
+!i113 1
+R10
+ncontrol@unit
+vfindMax
+R0
+!i10b 1
+!s100 Bm@]k8zK1>FHkz`zX]jkY3
+I00[j7b>93zW<d?X>UaXnW0
+R1
+R2
+w1574662412
+8G:/ModelSim/Solar-Power-Optimizer/findMax.v
+FG:/ModelSim/Solar-Power-Optimizer/findMax.v
+L0 10
+R6
+r1
+!s85 0
+31
+R7
+!s107 G:/ModelSim/Solar-Power-Optimizer/findMax.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/Solar-Power-Optimizer/findMax.v|
+!s101 -O0
+!i113 1
+R10
+nfind@max
+vmaster
+R0
+!i10b 1
+!s100 kQZHP^A=Fc;SnNbS8^_UW2
+IYi6_dSI;jEW4AzJEh@gM_3
+R1
+R2
+R3
+R4
+R5
+L0 69
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vpwmOut
+R0
+!i10b 1
+!s100 8m63U==5=3d526R@doJ`D2
+IO8M_NF:SM?C=ONNnIjC0[0
+R1
+R2
+w1574664055
+8G:/ModelSim/Solar-Power-Optimizer/pwnOut.v
+FG:/ModelSim/Solar-Power-Optimizer/pwnOut.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 G:/ModelSim/Solar-Power-Optimizer/pwnOut.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/Solar-Power-Optimizer/pwnOut.v|
+!s101 -O0
+!i113 1
+R10
+npwm@out
+vstimulus
+!s110 1574664060
+!i10b 1
+!s100 el:mibg^jf0@7`bi0=3hF2
+ITBULEDiiN]S_PNokR8eA30
+R1
+R2
+w1574663074
+8G:/ModelSim/Solar-Power-Optimizer/stimulus.v
+FG:/ModelSim/Solar-Power-Optimizer/stimulus.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 G:/ModelSim/Solar-Power-Optimizer/stimulus.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/Solar-Power-Optimizer/stimulus.v|
 !s101 -O0
 !i113 1
 R10

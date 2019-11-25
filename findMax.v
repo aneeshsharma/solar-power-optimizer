@@ -6,7 +6,7 @@
 //          status  -   outputs 1 when the process if complete
 // Input -  trigger -   triggers the process
 //          ldr     -   light intensity
-//          speed   -   time in which angle changes by 1 degreed
+//          speed   -   time in which angle changes by 1 degree
 module findMax(base, arm, status, ldr, trigger, speed);
 
 input[9:0] ldr;
@@ -36,7 +36,6 @@ begin
     base = 0;
     maxI = 0;
     #100; // short delay
-    $monitor("ldr=%10d, maxI=%3d, maxA=%8d, maxB=%8d, arm=%3d, base=%3d", ldr, maxI, maxA, maxB, arm, base); 
     for(i=0;i<=180;i=i+1)
     begin
         base = i;
