@@ -26,15 +26,15 @@ The `findMax` module finds the angle which receives the maximum intensity. Its d
 `module findMax(base, arm, status, ldr, trigger, speed);`
 
 Here,
-Outputs base    -   output base motor angle
-        arm     -   output arm motor angle
-        status  -   output status of the process of finding the position of maximum intensity
-                    1   -   process is complete
-                    0   -   process is under progress
+Outputs base    -   output base motor angle  
+        arm     -   output arm motor angle  
+        status  -   output status of the process of finding the position of maximum intensity  
+                    1   -   process is complete  
+                    0   -   process is under progress  
 
-Inputs  ldr     -   input value of the relative intensity of light being received on the LDR
-        trigger -   trigger input - the process start on positive edge of trigger - used to trigger the process
-        speed   -   speed of motor rotation i.e. time for a degree change in angle
+Inputs  ldr     -   input value of the relative intensity of light being received on the LDR  
+        trigger -   trigger input - the process start on positive edge of trigger - used to trigger the process  
+        speed   -   speed of motor rotation i.e. time for a degree change in angle  
 
 The module starts the process of finding the maximum intensity position as soon as a postive edge is received on trigger input. The status is set to 0 until the process is complete thereafter it is set to 1 indicating that the process is complete.
 
@@ -46,8 +46,8 @@ The defination look as -
 `module pwmOut(pwm, angle);`
 
 Here,
-Output  pwm     -   the output PWM signal for the SG90 servo
-Input   angle   -   the angle at which the motor is to be set
+Output  pwm     -   the output PWM signal for the SG90 servo  
+Input   angle   -   the angle at which the motor is to be set  
 
 ## The `controlUnit` module
 
@@ -59,11 +59,11 @@ The defination of this module is -
 `module controlUnit(base, arm, panelBase, panelArm, ldr);`
 
 Here,
-Output  base        -   the angle value of the base servo
-        arm         -   the angle value of the arm servo
-        panelBase   -   the angle value for the solar panel base
-        panelArm    -   the angle value for the solar panel arm
-Input   ldr         -   the relative intensity value received at the LDR
+Output  base        -   the angle value of the base servo  
+        arm         -   the angle value of the arm servo  
+        panelBase   -   the angle value for the solar panel base  
+        panelArm    -   the angle value for the solar panel arm  
+Input   ldr         -   the relative intensity value received at the LDR  
 
 ## The `master` module
 
@@ -74,11 +74,11 @@ The defination is -
 `module master(base, arm, panelBase, panelArm, ldr)`
 
 Here,
-Output  base        -   the PWM output for the base servo
-        arm         -   the PWM output for the arm servo
-        panelBase   -   the PWM output for the solar panel base servo
-        panelArm    -   the PWM output for the solar panel arm servo
-Input   ldr         -   the input value for the relative light intenisty received at the LDR
+Output  base        -   the PWM output for the base servo  
+        arm         -   the PWM output for the arm servo  
+        panelBase   -   the PWM output for the solar panel base servo  
+        panelArm    -   the PWM output for the solar panel arm servo  
+Input   ldr         -   the input value for the relative light intenisty received at the LDR  
 
 ## How to simulate?
 
